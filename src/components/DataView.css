@@ -1,0 +1,59 @@
+/* src/components/DataView.css */
+
+.data-view-container {
+  padding: 20px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-height: calc(100vh - 120px); /* Adjust height based on your layout */
+  overflow-y: auto;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: #3B3B3B;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 6px #FFE81F;
+  text-align: center;
+  justify-content: center;
+  width: 14%; /* Adjust item width based on grid requirements */
+}
+
+.grid-item:hover {
+  background-color: goldenrod;
+}
+
+.grid-item button {
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  padding: inherit;
+  border: none;
+  border-radius: inherit;
+  text-align: inherit;
+  justify-content: inherit;
+  width: 100%; /* Ensure button takes full width of grid item */
+  cursor: pointer;
+}
+
+.grid-item button:hover {
+  background-color: goldenrod;
+}
+
+@media (max-width: 768px) {
+  .grid-item {
+    width: calc(50% - 20px); /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-item {
+    width: 100%; /* Full width on mobile */
+  }
+}

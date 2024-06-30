@@ -1,0 +1,22 @@
+/* SearchBar.css */
+
+.search-container {
+    width: 100%; /* Adjust width as needed */
+    max-width: 800px; /* Example maximum width */
+    margin: 0 auto; /* Centering the container */
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 3px solid #FFE81F;
+    border-radius: 4px 0 0 4px;
+    background-color: #3B3B3B;
+    font-size: small;
+    font-family: 'SearchFont', sans-serif;
+    color: white;
+    font-weight: bold;
+  }

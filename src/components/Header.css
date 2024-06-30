@@ -1,0 +1,20 @@
+/* src/components/Header.css */
+
+.header {
+    background-color: transparent; /* Optional: Background color for the header */
+    padding: 10px 20px;
+  }
+  
+  .header img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .title {
+    font-family: 'TitleFont', sans-serif;
+    font-size: 25px;
+    color: yellow;
+    margin-top: -0.3%;
+  }
