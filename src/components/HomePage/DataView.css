@@ -1,14 +1,16 @@
-/* src/components/DataView.css */
-
 .data-view-container {
   padding: 20px;
+}
+
+.data-view-container::-webkit-scrollbar {
+  display: none; 
 }
 
 .grid-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  max-height: calc(100vh - 120px); /* Adjust height based on your layout */
+  max-height: calc(100vh - 120px); 
   overflow-y: auto;
   justify-content: center;
 }
@@ -22,7 +24,7 @@
   box-shadow: 0 0 6px #FFE81F;
   text-align: center;
   justify-content: center;
-  width: 14%; /* Adjust item width based on grid requirements */
+  width: 14%; 
 }
 
 .grid-item:hover {
@@ -38,7 +40,7 @@
   border-radius: inherit;
   text-align: inherit;
   justify-content: inherit;
-  width: 100%; /* Ensure button takes full width of grid item */
+  width: 100%; 
   cursor: pointer;
 }
 
@@ -46,14 +48,21 @@
   background-color: goldenrod;
 }
 
+.char-title {
+  color: white;
+  font-family: 'TitleFont', sans-serif;
+  font-size: 40px;
+  text-shadow: 8px 8px 10px #FFE81F;
+}
+
 @media (max-width: 768px) {
   .grid-item {
-    width: calc(50% - 20px); /* Adjust for smaller screens */
+    width: calc(50% - 20px);
   }
 }
 
 @media (max-width: 480px) {
   .grid-item {
-    width: 100%; /* Full width on mobile */
+    width: 100%;
   }
 }

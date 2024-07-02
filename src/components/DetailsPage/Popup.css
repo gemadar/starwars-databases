@@ -1,0 +1,42 @@
+.popup-overlay {
+  position: fixed;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  background-color: transparent; 
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000; 
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #000000;
+  box-shadow: 0 0 6px #FFE81F;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 55%; 
+  max-height: 55%; 
+  overflow-y: auto;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+.close-btn {
+  background-color: #000000;
+  box-shadow: 0 0 6px #FFE81F;
+  cursor: pointer;
+  width: 50%; 
+  height: 50%; 
+  font-family: 'SearchFont', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.close-btn:hover {
+  color: #FFE81F;
+}

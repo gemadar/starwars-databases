@@ -1,7 +1,7 @@
 import React from 'react';
-import VideoBackground from './components/VideoBackground';
-import DataView from './components/DataView';
-import Header from './components/Header';
+import VideoBackground from './components/Elements/VideoBackground';
+import DataView from './components/HomePage/DataView';
+import Header from './components/Elements/Header';
 import './App.css';
 
 function App() {

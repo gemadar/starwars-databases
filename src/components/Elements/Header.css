@@ -1,7 +1,5 @@
-/* src/components/Header.css */
-
 .header {
-    background-color: transparent; /* Optional: Background color for the header */
+    background-color: transparent; 
     padding: 10px 20px;
   }
   
@@ -9,12 +7,12 @@
     max-width: 150px;
     height: auto;
     display: block;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto;
   }
 
   .title {
     font-family: 'TitleFont', sans-serif;
     font-size: 25px;
-    color: yellow;
+    color: #FFE81F;
     margin-top: -0.3%;
   }

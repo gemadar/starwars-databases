@@ -1,7 +1,5 @@
-// SearchBar.jsx
-
 import React, {useState} from 'react';
-import './SearchBar.css'; // Importing CSS for styling
+import './SearchBar.css'; 
 
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState('');
@@ -9,7 +7,7 @@ const SearchBar = ({ onSearch }) => {
   const handleInputChange = (event) => {
     const value = event.target.value;
     setQuery(value);
-    onSearch(value); // Notify parent component of search query
+    onSearch(value); 
   };
 
   return (
